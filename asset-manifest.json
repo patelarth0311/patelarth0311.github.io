@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/reactPW/static/css/main.7673b866.css",
-    "main.js": "/reactPW/static/js/main.fc4f72ae.js",
+    "main.css": "/reactPW/static/css/main.91513dc1.css",
+    "main.js": "/reactPW/static/js/main.9bdc2c24.js",
     "static/js/787.d15c9bdd.chunk.js": "/reactPW/static/js/787.d15c9bdd.chunk.js",
     "static/media/website.png": "/reactPW/static/media/website.58d1a5ad63c819b6fb60.png",
-    "static/media/jspacman.png": "/reactPW/static/media/jspacman.416bb41d42fa2d5ef665.png",
-    "static/media/DS.png": "/reactPW/static/media/DS.7411d6a84415d31e5404.png",
     "static/media/bitblank.png": "/reactPW/static/media/bitblank.ecf9197bcedd93d14f57.png",
     "static/media/doge.svg": "/reactPW/static/media/doge.85bd34414d4cf9d345cc3075e893a7ec.svg",
     "static/media/smile.png": "/reactPW/static/media/smile.9e3895fa7166fb007547.png",
@@ -27,19 +25,17 @@
     "static/media/file-document.svg": "/reactPW/static/media/file-document.c15d625e1a5b4af11cdbcaf77a1d55e7.svg",
     "index.html": "/reactPW/index.html",
     "static/media/arrow-right-circle.svg": "/reactPW/static/media/arrow-right-circle.7277351ed7613c2649b489f8b663d92c.svg",
-    "static/media/more-vertical.svg": "/reactPW/static/media/more-vertical.1215c3fc6a576566b230dceca6e8f39f.svg",
     "static/media/code.svg": "/reactPW/static/media/code.423b212174e2e1a8775e154e27cd2623.svg",
     "static/media/linkedin.svg": "/reactPW/static/media/linkedin.3813c523ed7d388dd2c3ac7202cfbb22.svg",
     "static/media/location.svg": "/reactPW/static/media/location.ea7a9e658b996bf59687259e626989bd.svg",
     "static/media/bxl-html5.svg": "/reactPW/static/media/bxl-html5.08b73ba236be7af521ead08340d042da.svg",
     "static/media/bxl-css3.svg": "/reactPW/static/media/bxl-css3.5bc64e9cf721d50a8bbfd9424684b4a5.svg",
-    "static/media/git-branch.svg": "/reactPW/static/media/git-branch.05bd054da4dd61a85e8c1697f4f1de27.svg",
-    "main.7673b866.css.map": "/reactPW/static/css/main.7673b866.css.map",
-    "main.fc4f72ae.js.map": "/reactPW/static/js/main.fc4f72ae.js.map",
+    "main.91513dc1.css.map": "/reactPW/static/css/main.91513dc1.css.map",
+    "main.9bdc2c24.js.map": "/reactPW/static/js/main.9bdc2c24.js.map",
     "787.d15c9bdd.chunk.js.map": "/reactPW/static/js/787.d15c9bdd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7673b866.css",
-    "static/js/main.fc4f72ae.js"
+    "static/css/main.91513dc1.css",
+    "static/js/main.9bdc2c24.js"
   ]
 }
