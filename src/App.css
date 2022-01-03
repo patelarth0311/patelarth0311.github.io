@@ -846,36 +846,39 @@ height: 167px;
 
 
 
- #connect , #contact {
+
+
+ #mediaGrid {
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
   align-items: center;
-  text-align: center;
   justify-content: center;
-  justify-items: center;
+
  }
 
+#contact h6 , #connect h6 {
 
-#contact h6 , #connect h6:nth-child(1) {
-  position: absolute;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 200;
   letter-spacing: 0.05em;
-  top: 18px;
+  margin-top: 10px;
+
 }
 
-#connect   h6:nth-child(2) {
+#connect h6:nth-child(2) {
   position: absolute;
-
-  font-size: 10px;
-  font-weight: 200;
-  letter-spacing: 0.05em;
-top: 115px;
-
-
+  font-size: 15px;
+  top: 100px;
+ 
 }
 
 #pin {
- width: 15px;
+  width: 19px;
+position: relative;
 }
 
 
@@ -1087,23 +1090,25 @@ backdrop-filter: blur( 4.0px );
 
 }
 
-#connect {
+#mediaGrid {
   display: grid;
+  transform: translate(0%, 35px) ;
   grid-template-columns: repeat(2,33%);
 }
 
 #github2, #linkedin2, #mail2 {
-  width: 28px;
-height: 28px;
+  width: 30px;
+height: 30px;
 color: rgba(50,173,230);
 margin-top: -10px;
 
 }
 
 #mail2 {
-  margin-top: 0px;
-  width: 45px;
-  height: 45px;
+  transform: translate(0%, 30px) ;
+  width: 50px;
+  height: 50px;
+  
 }
 
 #bit2 {
@@ -1115,7 +1120,7 @@ height: 60px;
 }
 #footer h6 {
   position: absolute;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 200;
   letter-spacing: 0.05em;
   margin-right: -50%;
@@ -1262,15 +1267,16 @@ height: 60px;
 }
 @media screen and (max-width: 510px) {
   
-  .contactcont {
-    height: 200px;
-  }
+ 
 
 
   .skillset h6 {
     top: 0%;
   }
   
+  .contactcont {
+    
+  }
   #contactwrap {
     grid-template-columns: repeat(3, 7rem);
   
@@ -1386,10 +1392,10 @@ transform: translate(-50%, 270%);
 }
 
 
-#react {
-  position: absolute;
+#react  {
+
   width: 19px;
-  margin-left: 10px;
+  transform: translate(0%, 30%);
  
 
 }
