@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactPW/static/css/main.cc8bff22.css",
-    "main.js": "/reactPW/static/js/main.846a41b5.js",
+    "main.css": "/reactPW/static/css/main.7673b866.css",
+    "main.js": "/reactPW/static/js/main.fc4f72ae.js",
     "static/js/787.d15c9bdd.chunk.js": "/reactPW/static/js/787.d15c9bdd.chunk.js",
     "static/media/website.png": "/reactPW/static/media/website.58d1a5ad63c819b6fb60.png",
     "static/media/jspacman.png": "/reactPW/static/media/jspacman.416bb41d42fa2d5ef665.png",
@@ -34,12 +34,12 @@
     "static/media/bxl-html5.svg": "/reactPW/static/media/bxl-html5.08b73ba236be7af521ead08340d042da.svg",
     "static/media/bxl-css3.svg": "/reactPW/static/media/bxl-css3.5bc64e9cf721d50a8bbfd9424684b4a5.svg",
     "static/media/git-branch.svg": "/reactPW/static/media/git-branch.05bd054da4dd61a85e8c1697f4f1de27.svg",
-    "main.cc8bff22.css.map": "/reactPW/static/css/main.cc8bff22.css.map",
-    "main.846a41b5.js.map": "/reactPW/static/js/main.846a41b5.js.map",
+    "main.7673b866.css.map": "/reactPW/static/css/main.7673b866.css.map",
+    "main.fc4f72ae.js.map": "/reactPW/static/js/main.fc4f72ae.js.map",
     "787.d15c9bdd.chunk.js.map": "/reactPW/static/js/787.d15c9bdd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc8bff22.css",
-    "static/js/main.846a41b5.js"
+    "static/css/main.7673b866.css",
+    "static/js/main.fc4f72ae.js"
   ]
 }
