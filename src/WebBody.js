@@ -460,7 +460,7 @@ function Body(props) {
         <Heading>Connect</Heading>
 
       
-        <Heading id = "location"> <img id = "pin" src = {pin}></img> University of Georgia</Heading>
+     
 <a href="https://www.linkedin.com/in/arth-patel-343bb51b3/"  target="_blank" rel="noopener noreferrer" ><img  id = "linkedin2" src={linkedlin} alt="linkedin" /></a>
 
 <a href=" https://github.com/patelarth0311"  target="_blank" rel="noopener noreferrer" >
