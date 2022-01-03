@@ -1,0 +1,1425 @@
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+.gradient {
+  width: 100vw;
+  height: 100vh;
+  background-size: 100px 100px;
+
+
+ 
+}
+
+
+
+
+
+
+
+@keyframes grad {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 25% 55%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+
+@keyframes rot {
+  0% {
+    opacity: 40%;
+   transform:   rotate(-45deg) translate(400px, 900px);
+  }
+  100% {
+    
+  }
+ 
+  
+}
+
+
+
+
+
+/*****/
+
+
+.fa-github,
+.branch,
+#home,.projs, #more{ 
+color: white;
+  /* position: relative;
+  display: block;
+  border: none;
+*/
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+}
+
+
+
+
+/*****/
+
+
+body {
+  font-family: 62.5%/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+ 
+  letter-spacing: 0.05em;
+}
+
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  float: right;
+}
+
+#nav {
+  padding: 	0.625rem 1.375rem;
+
+  position: fixed;
+  z-index: 20;
+  /*height: 70px;*/
+  width: 100%;
+ 
+}
+
+#links li{
+  display: inline-block;
+  background-color: transparent;
+  margin-right: 20.5px;
+visibility: hidden;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+
+}
+
+#media {
+  top: 83%;
+  position: absolute;
+  
+}
+
+.visibility {
+  display: none;
+}
+
+#media li {
+ 
+  margin: 10px;
+  margin-top: 0px;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  
+}
+
+#media li:hover {
+  transition: all .3s linear;
+  transform: scale(1.15)
+}
+
+.mediacont {
+ position: relative;
+ width: 200px;
+ left: -80%;
+}
+
+
+
+.linksvg .fa-github {
+  position: absolute;
+  left: 50%;
+transform: translate(-50%, -50%);
+top: 50%;
+margin-right: -50%;
+width: 31px;
+height: 31px;
+color: rgba(50,173,230);
+
+
+}
+
+.link:link,
+.link:visited {
+  font-size: 26.4px;
+  font-weight: 150;
+  text-decoration: none;
+}
+
+
+
+.linksvg {
+  margin-left: 3px;
+  position: absolute;
+
+  margin-right: -50%;
+  transform: translate(-57%, 17%) ;
+  width: 36px;
+  height: 36px;
+  
+
+}
+
+
+.linkedin {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  left: 15%;
+  top: 12%;
+  margin-right: -50%;
+
+}
+
+#links {
+  height: 10px;
+}
+
+#mail {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-42%, 12%) ;
+  width: 45px;
+  height: 45px;
+  
+}
+
+#hand {
+  left: 49%;
+}
+
+#tool {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-56.5%, 3%) ;
+  width: 45px;
+  height: 45px;
+}
+
+#code {
+  transform: translate(-58%, 10%) ;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+
+#res {
+  transform: translate(-58%,19%) ;
+  width: 35px;
+  height: 35px;
+  left: 50%;
+}
+
+
+#dropmenu {
+  float: left;
+  font-size: 26.4px;
+  font-weight: 140;
+  text-decoration: none;
+  color: black;
+  margin-right: 23.5px;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  
+}
+
+
+
+
+#bit {
+  border-radius: 100%;
+  transform: translate(-56%,-50%);
+  width: 50px;
+  height: 50px;
+}
+
+.navitems {
+ 
+    top: 63.5px;
+  
+}
+
+
+#home {
+  display: block;
+  transition-duration: .6s;
+  margin-right: 5px;
+  padding-bottom: 5px;
+
+ 
+ 
+}
+
+
+
+
+
+
+.flip {
+
+  transform:  scale3d(-1, -1, 1) rotate(1080deg);
+
+}
+
+
+
+#orbit-container {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 30vh;
+  background: transparent;
+}
+#name, #greetings {
+  font-size: 4rem;
+ font-weight: 220;
+  color: white;
+  
+}
+#resume {
+  Text-decoration: none;
+  position: absolute;
+  top: 14%;
+  left:22%;
+  font-size: 26.4px;
+  font-weight: 150;
+ 
+}
+
+
+
+
+#boutmecont,
+#projcont {
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  overflow: hidden;
+}
+
+#projcont {
+  padding-top: 110px;
+  position: relative;
+  min-height: 90rem;
+}
+
+#boutmecont {
+  position: relative;
+  height: 20vh;
+  min-height: 450px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  
+}
+.contactcont {
+  
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  height: 160px;
+  bottom: 0;
+ 
+
+  
+}
+
+
+#boutmecont h6 {
+
+  position: absolute;
+  font-size: 35px;
+  font-weight: 150;
+
+  top: 25.6%;
+  
+  
+}
+
+
+
+#boutmecont p {
+ 
+  position: absolute;
+  font-size: 26.4px;
+  font-weight: 150;
+
+top: 42%;
+padding: 0 10%;
+
+
+  
+}
+p {
+  
+  line-height: 1.3;
+}
+
+
+
+
+
+
+.projs h6, .projs p {
+  position: absolute;
+  font-size: 24.4px;
+  font-weight: 150;
+
+  top: 7%;
+}
+.projs.crypto p {
+  top: 69%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.projs.crypto #search {
+  left: 58%;
+}
+.projs.crypto #branch2 {
+  left: 40%;
+}
+
+
+.projs.pw p{
+  padding-left: 10px;
+  padding-right: 10px;
+  top: 70%;
+}
+.projs p {
+  font-size: 18.4px;
+  top: 73.5%
+}
+.projs img {
+  border-radius: 3%;
+  top: 20%;
+  position: absolute;
+}
+.projs.pw img {
+
+  top: 20%;
+  position: absolute;
+}
+
+.projs:hover {
+  transition: all 0.2s ease-in-out;
+
+  transform: scale(1.03);
+}
+
+
+#branch, #branch2, #branchBack, #play , #search{
+  
+  text-decoration: none;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) ;
+  top: 83%;
+margin-top: 1.5rem;
+
+width: 35px;
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+transition-duration: 0.4s;
+}
+
+
+#branchBack {
+  left: 40%;
+}
+
+#play {
+  left: 60%;
+}
+
+
+.projs #branch2 {
+  text-decoration: none;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) ;
+  top: 83%;
+margin-top: 1.5rem;
+width: 35px;
+
+
+ 
+}
+
+#branch:hover, #branch2:hover,#branchBack:hover , #play:hover , #search:hover {
+width: 45px;
+
+  transition: all .3 ease-in-out;
+}
+
+
+
+@keyframes flipFront {
+  from {
+    visibility: visible;
+    transform: rotateY(0deg)
+  }
+
+  to {
+    visibility: hidden;
+    transform: rotateY(90deg)
+  }
+}
+
+
+
+@keyframes flipFrontBack {
+  from {
+    visibility: hidden;
+    transform: rotateY(-90deg)
+  }
+
+  to {
+    visibility: visible;
+    transform: rotateY(0deg)
+  }
+}
+
+
+
+
+@keyframes flipBackFront {
+  from {
+    visibility: visible;
+    transform: rotateY(0deg)
+  }
+
+  to {
+    visibility: hidden;
+    transform: rotateY(90deg)
+  }
+}
+
+@keyframes flipBack {
+  from {
+    visibility:  hidden;
+    transform: rotateY(-90deg)
+  }
+
+  to {
+    visibility: visible;
+    transform: rotateY(0deg)
+  }
+}
+
+
+
+#Projects {
+  overflow: hidden;
+  height: 200px;
+  border-radius: 100px;
+  display: flex;
+  position: relative;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  top: 1%;
+
+
+}
+
+#Proj h6 {
+  position: absolute;
+  font-size: 35px;
+  font-weight: 150;
+
+  left: 0px;
+  right: 0px;
+  top: 5.6%;
+  
+}
+
+
+input {
+  outline: none;
+}
+
+#Proj .fa-github {
+position: absolute;
+top: 51%;
+left: 50%;
+
+margin: 0px 0 0 -23px;
+margin-top: 1.5rem;
+
+}
+
+
+.bg.git {
+  position: absolute;
+
+width: 59px;
+height: 59px;
+top: 75%;
+position: absolute;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.flexcont {
+
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 23rem);
+  gap: 6.6rem;
+  row-gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: translateY(15rem);
+
+ 
+}
+
+.projs {
+  image-rendering: crisp-edges;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+
+  height: 26rem;
+  display: flex;
+  position: relative;
+ 
+  background-color: white;
+  border-radius:  80px;
+  box-shadow: 0px 0px 20px 3.3px grey;
+  z-index: 2;
+
+
+}
+
+
+
+.projs::before {
+  min-width: 23rem;
+}
+
+
+ #more {
+   position: absolute;
+   margin-left: -10px;
+  width: 35px;
+  height: 35px;
+ }
+
+ #more:hover {
+   transform: rotateY(180deg);
+ }
+
+
+
+
+
+.pacmanback, .pacmanfront {
+
+position: absolute;
+
+
+}
+
+
+
+
+
+
+.pacmanback {
+  visibility: hidden;
+  transform: rotateY(-90deg);
+}
+
+
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+	
+
+}
+
+
+
+
+
+
+
+#Skillscont {
+
+ min-height: 1100px;
+  width: 100vw;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+#Skills  {
+  position: relative;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 20%) ;
+  max-width: 880px;
+  min-width: 23rem;
+  height: 25rem;
+  border-radius: 40px;
+  height: 90%;
+  min-height: 800px;
+
+ }
+
+
+
+#Skills > h6 {
+  font-size: 35px;
+  font-weight: 150;
+  letter-spacing: 0.05em;
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) ;
+
+}
+
+#flexskillLangcont,#flexskillTechcont{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: grid;
+  gap: 6.6rem;
+  row-gap: 5.3rem;
+  grid-template-columns: repeat(3, 10rem);
+  left: 50%;
+  top: 180px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  
+
+}
+
+
+
+
+
+.skill  h6{
+  font-size: 20px;
+  font-weight: 150;
+  position: absolute;
+
+  left: 50%;
+ 
+  margin-right: -50%;
+  transform: translate(-50%, 250%);
+}
+.skill {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  position: relative;
+  height: 100px;
+  border-radius: 20px;
+
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+.ionicon {
+  width: 65px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+
+.skillset {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  height: 167px;
+  top: 270px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 30px;
+  border-bottom-right-radius: 50%;
+border-top-left-radius: 50%;
+ 
+width: 178px;
+height: 167px;
+ 
+}
+
+
+
+
+.skillset h6 {
+  position: absolute;
+  font-size: 30.4px;
+  font-weight: 150;
+  margin-right: -50%;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%, -50%)
+}
+
+
+
+
+ #connect , #contact {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+ }
+
+
+#contact h6 , #connect h6:nth-child(1) {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 0.05em;
+  top: 18px;
+}
+
+#connect   h6:nth-child(2) {
+  position: absolute;
+
+  font-size: 10px;
+  font-weight: 200;
+  letter-spacing: 0.05em;
+top: 115px;
+
+
+}
+
+#pin {
+ width: 15px;
+}
+
+
+#connect {
+margin-left: 6px;
+}
+
+
+
+
+#icon  > img {
+  top: -13.45px;
+}
+
+#icon {
+  margin-left: 7.5px;
+  display: block;
+transition-duration: .6s;
+}
+
+
+
+.svg-icon {
+  width: 4em;
+  height: 4em;
+}
+
+
+
+
+
+
+#rightarrow{
+  position: absolute;
+ 
+ 
+  transform: translate(-50%, -50%);
+  width: 32px;
+  height: 32px;
+  top:50%;
+  left: 125%;
+}
+
+
+
+
+
+
+
+
+
+#Proj .fa-github {
+  transform: scale(1.1);
+}
+
+
+.flipit {
+  transition: all 3ms ease-out;
+  transform: scaleX(-1);
+  
+}
+
+
+
+.Cont {
+  position: relative;
+ 
+}
+
+#smile {
+  margin:1.4rem;
+  
+ 
+}
+
+
+
+@keyframes fade {
+  from {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(0px);
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+
+    transform: translateX(16.5px);
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(16.5px);
+  }
+}
+
+*:focus {
+  outline: none;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+
+
+a:visited { outline: none; }
+
+ #resume:hover {
+ 
+  text-decoration: underline;
+  text-decoration-color:rgba(50,173,230);
+  
+}
+
+
+.projs, #Skills, .skill, #links li, #dropmenu {
+ 
+backdrop-filter: blur( 4.0px );
+-webkit-backdrop-filter: blur( 4.0px );
+
+  }
+
+
+
+  img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+  }
+
+  #Projects {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .link:link,
+.link:visited {
+  font-size: 26.4px;
+  font-weight: 150;
+  text-decoration: none;
+}
+
+
+
+
+#smile {
+width: 150px;
+transform: scale(1.3);
+border-radius: 100px;
+
+
+
+}
+
+#gitBg {
+  position: absolute;
+border-radius: 100px;
+left: 50%;
+transform: translate(-50%, -50%);
+top: 72%;
+
+
+width: 150px;
+height: 150px;
+z-index: -1;
+backdrop-filter: blur( 4.0px );
+-webkit-backdrop-filter: blur( 4.0px );
+
+
+}
+
+
+
+
+
+
+#contactwrap {
+
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(3, 13.5rem);
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 10%) ;
+ 
+ overflow: hidden;
+}
+
+
+#connect, #contact , #footer{
+  width: 100%;
+  height: 100%;
+
+}
+
+#connect {
+  display: grid;
+  grid-template-columns: repeat(2,33%);
+}
+
+#github2, #linkedin2, #mail2 {
+  width: 28px;
+height: 28px;
+color: rgba(50,173,230);
+margin-top: -10px;
+
+}
+
+#mail2 {
+  margin-top: 0px;
+  width: 45px;
+  height: 45px;
+}
+
+#bit2 {
+width: 60px;
+height: 60px;
+
+
+  transform: translate(-100%, 10%) ;
+}
+#footer h6 {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 0.05em;
+  margin-right: -50%;
+  top: 50%;
+  
+}
+
+
+@media screen and (max-width: 920px) {
+
+
+  #links li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16.5px;
+    
+  }
+ #contactwrap {
+  grid-template-columns: repeat(3, 10rem);
+ }
+
+  #dropmenu {
+    position: absolute;
+  }
+
+  .navitems {
+    position: relative;
+  }
+}
+
+@media all and (orientation:landscape) and (max-width: 1300px)  and (max-height: 500px) {
+  .Cont {
+    top: -3.7rem;
+  }
+  #smile {
+    margin: 1.2rem;
+ }
+}
+
+
+
+@media (max-height: 500px) { 
+  .Cont {
+  top: -3.7rem;
+}
+
+#smile {
+  margin: .38rem;
+}
+
+#orbit-container{
+ margin-top: 40px;
+}
+
+
+
+.particle,.gradient  {
+  min-height: 500px;
+}
+
+
+}
+
+
+@media (max-width: 755px) {
+
+  
+
+
+  #name, #greetings {
+  
+    font-size: 3.3rem;
+  }
+
+
+  #Proj h6,
+
+ #boutmecont  h6, #Skills > h6 {
+    font-size: 32px;
+  }
+ 
+
+
+   #boutmecont  p,  #boutmecont  p {
+    font-size: 23px;
+  }
+
+  .skillset h6 {
+    font-size: 24.4px;
+  }
+
+#smile  {
+    margin: 1rem;
+  }
+
+
+ 
+}
+
+@media screen and (max-width: 490px) {
+  .link:link,
+  .link:visited {
+    font-size: 21px;
+  
+  }
+}
+
+
+
+@media screen and (max-width: 920px) {
+  .flexcont {
+    display: grid;
+    grid-template-columns: repeat(1, 22rem);
+  }
+
+#boutmecont p {
+  padding: 0 30px;
+}
+#flexskillLangcont,#flexskillTechcont{
+  gap: 6.6rem;
+  row-gap: 5.3rem;
+  grid-template-columns: repeat(3, 10%);
+ 
+
+}
+
+
+  #Skills {
+    width: 80%;
+  max-width: 60rem;
+  
+  }
+ 
+
+
+  #projcont {
+    min-height: 150rem;
+   
+  }
+ 
+
+
+ 
+}
+@media screen and (max-width: 510px) {
+  
+ 
+
+
+  .skillset h6 {
+    top: 0%;
+  }
+  
+  #contactwrap {
+    grid-template-columns: repeat(3, 7rem);
+  
+  }
+
+  #flexskillLangcont,#flexskillTechcont{
+    gap: 6.6rem;
+    row-gap: 5.3rem;
+    grid-template-columns: repeat(3, 5%);
+    top: 150px;
+   
+  
+  }
+
+ 
+
+
+  .ionicon {
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+
+  
+  
+.skill  h6{
+  font-size: 17px;
+  transform: translate(-50%, 350%);
+}
+  
+
+  #Skills {
+    max-width: 25rem;
+  }
+ 
+ 
+}
+
+@media screen and (max-width: 485px ) {
+#media {
+  top: 88%;
+  
+}
+
+#contactwrap {
+  
+
+}
+
+#Skills {
+  
+}
+
+#boutmecont {
+  min-height:510px;
+}
+
+.mediacont {
+ left: 0%;
+ margin-top: -65px
+}
+
+.skill {
+  width: 80px;
+  height: 80px;
+
+  
+}
+.skillset h6 {
+  top: -10%;
+}
+
+
+#flexskillLangcont,#flexskillTechcont{
+  gap: 6.6rem;
+  row-gap: 5.3rem;
+  grid-template-columns: repeat(3, 3%);
+  top: 90px;
+ 
+
+}
+.skillset {
+  top: 260px;
+}
+
+#flexskillLangcont, #flexskillTechcont {
+  top: 110px;
+}
+#Skills {
+  min-height: 700px;
+  min-width: 22rem;
+}
+
+
+.ionicon {
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+
+
+.skill  h6{
+font-size: 16px;
+transform: translate(-50%, 270%);
+}
+
+
+}
+
+
+#react {
+  position: absolute;
+  width: 19px;
+  margin-left: 10px;
+ 
+
+}
+
+#particle {
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+ 
+}
+
+#tsparticles {
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(180deg)
+}
+
+
+#zen , #tan{
+  position: absolute;
+  left: 48%;
+  transform: translate(-50%, 10%);
+ 
+ 
+}
+
+body {
+  background-color: black;
+}

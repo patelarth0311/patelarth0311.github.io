@@ -1,0 +1,171 @@
+
+
+
+@media (prefers-color-scheme: dark) {
+ .gradient {
+  background: radial-gradient(
+    circle at 65%,
+
+    #AA336A,
+
+#8120b7,
+#6334AE,
+#cc2d53,
+#a72086,
+#c72e5a,
+#ca3d29,
+#c72e5a,
+#e8533a
+
+);
+animation: grad 100s ease-in-out infinite;
+background-size: 1300% 1000%;
+}
+
+
+#projcont , #Skillscont{
+  background-color: #0d0d0d;
+}
+
+  
+.projs , #Skills , .skill  {
+  background:  rgba(24,24,24,.01);
+  box-shadow: 0 0px 16px 1px black;
+  border: 1px solid  #121212;
+ 
+}
+
+#Skills  {
+  box-shadow: 0 0px 20px 1px black;
+}
+
+
+
+
+
+
+
+#boutmecont {
+  background-color: #121212;
+  border-bottom: 1px solid #121212;
+}
+  
+   
+
+
+
+.contactcont {
+  background: #0b0b0b;
+  border-top: 1px solid #121212;
+  box-shadow: 0 0px 18px 1px black;
+}
+
+
+
+
+    
+
+
+
+  #links li, #media li, #dropmenu {
+    background:  rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 6px 1px rgba(0, 0, 0,1);;
+    border: 1px solid #121212;
+  }
+
+
+  
+  
+}
+
+
+ .gradient.dark{
+  background: radial-gradient(
+    circle at 65%,
+
+    #AA336A,
+
+#8120b7,
+#6334AE,
+#cc2d53,
+#a72086,
+#c72e5a,
+#ca3d29,
+#c72e5a,
+#e8533a
+
+);
+animation: grad 100s ease-in-out infinite;
+
+background-size: 1300% 1000%;
+}
+
+
+.contactcont.dark {
+   background: #121212;
+  border-top: 1px solid #121212;
+  box-shadow: 0 0px 18px 1px black;
+}
+
+
+.projs.dark, #Skills.dark, .skill.dark {
+  background:  rgba(24,24,24,.01);
+  box-shadow: 0 0px 16px 1px black;
+  border: 1px solid  #121212;
+ 
+}
+
+#Skills.dark{
+  box-shadow: 0 0px 20px 1px black;
+  
+}
+
+
+#projcont.dark, #Skillscont.dark {
+  background-color: #0d0d0d;
+}
+
+
+
+
+
+#boutmecont.dark{
+  background-color: #121212;
+  border-bottom: 1px solid #121212;
+ 
+ 
+}
+
+
+#Projects h6.dark,
+#Projects p.dark,
+#boutmecont h6.dark,
+#boutmecont  p.dark,
+#boutmecont  a.dark,
+#Skills h6.dark,
+.projs h6.dark,
+.projs p.dark,
+.skillset h6.dark,
+.skill h6.dark{
+  color: white;
+}
+
+
+
+
+
+
+
+#links li.dark , #media li.dark, #dropmenu.dark{
+  background:  rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 6px 1px rgb(0, 0, 0);
+    border: 1px solid #121212;
+  }
+
+
+
+
+
+
+
+
