@@ -869,17 +869,8 @@ height: 167px;
 
 }
 
-#connect h6:nth-child(2) {
-  position: absolute;
-  font-size: 15px;
-  top: 100px;
- 
-}
 
-#pin {
-  width: 19px;
-position: relative;
-}
+
 
 
 #connect {
@@ -1274,9 +1265,10 @@ height: 60px;
     top: 0%;
   }
   
-  .contactcont {
-    
+ .contactcont {
+    height: 195px;
   }
+	
   #contactwrap {
     grid-template-columns: repeat(3, 7rem);
   
