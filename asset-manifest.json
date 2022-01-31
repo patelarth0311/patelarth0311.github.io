@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.29da7684.css",
-    "main.js": "/static/js/main.cc8b703e.js",
+    "main.css": "/static/css/main.a4e877ec.css",
+    "main.js": "/static/js/main.89aeeda6.js",
     "static/js/787.d15c9bdd.chunk.js": "/static/js/787.d15c9bdd.chunk.js",
     "static/media/website.png": "/static/media/website.58d1a5ad63c819b6fb60.png",
-    "static/media/ArthResume.pdf": "/static/media/ArthResume.590b8718b9d6cf8eb560.pdf",
+    "static/media/ArthResume.pdf": "/static/media/ArthResume.1da85364ef00bbea077f.pdf",
     "static/media/bitblank.png": "/static/media/bitblank.ecf9197bcedd93d14f57.png",
+    "static/media/titleFont.ttf": "/static/media/titleFont.eeae9ebd287e9cc247a6.ttf",
+    "static/media/headerFont.ttf": "/static/media/headerFont.8b21801fd165c1f4b4e1.ttf",
+    "static/media/font.ttf": "/static/media/font.65395f3ee0f09331d364.ttf",
     "static/media/doge.svg": "/static/media/doge.85bd34414d4cf9d345cc3075e893a7ec.svg",
     "static/media/smile.png": "/static/media/smile.9e3895fa7166fb007547.png",
+    "static/media/circuit.svg": "/static/media/circuit.1275fe0f43a5a63b3521.svg",
+    "static/media/circuit2.svg": "/static/media/circuit2.7a4cd120f790dfd12303.svg",
     "static/media/tanjiro.gif": "/static/media/tanjiro.78d08dca1a7865edb91e.gif",
     "static/media/zenny.gif": "/static/media/zenny.b4fdbc8b41965ed8d661.gif",
     "static/media/java.svg": "/static/media/java.e661fc82a0520a5071ad69fe2a2fbdad.svg",
@@ -28,15 +33,14 @@
     "static/media/arrow-right-circle.svg": "/static/media/arrow-right-circle.7277351ed7613c2649b489f8b663d92c.svg",
     "static/media/code.svg": "/static/media/code.423b212174e2e1a8775e154e27cd2623.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.3813c523ed7d388dd2c3ac7202cfbb22.svg",
-    "static/media/location.svg": "/static/media/location.ea7a9e658b996bf59687259e626989bd.svg",
     "static/media/bxl-html5.svg": "/static/media/bxl-html5.08b73ba236be7af521ead08340d042da.svg",
     "static/media/bxl-css3.svg": "/static/media/bxl-css3.5bc64e9cf721d50a8bbfd9424684b4a5.svg",
-    "main.29da7684.css.map": "/static/css/main.29da7684.css.map",
-    "main.cc8b703e.js.map": "/static/js/main.cc8b703e.js.map",
+    "main.a4e877ec.css.map": "/static/css/main.a4e877ec.css.map",
+    "main.89aeeda6.js.map": "/static/js/main.89aeeda6.js.map",
     "787.d15c9bdd.chunk.js.map": "/static/js/787.d15c9bdd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29da7684.css",
-    "static/js/main.cc8b703e.js"
+    "static/css/main.a4e877ec.css",
+    "static/js/main.89aeeda6.js"
   ]
 }
