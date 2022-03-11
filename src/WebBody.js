@@ -579,14 +579,14 @@ function Skills(props) {
         <div id="flexskillLangcont">
             <div className={"skill " + (props.theme === "dark" ?  "dark" :  "light")}>
                 <Heading>Javascript <br/>
-                    (5+ mths)</Heading>
+                    (1+ year)</Heading>
                 <img className="ionicon" src={javascript} alt="JS" />
             </div>
             
      
             <div className={"skill " + (props.theme === "dark" ?  "dark" :  "light")}>
                  <Heading>Java<br/>
-                    (1 year)</Heading>
+                    (1+ year)</Heading>
                 <img className="ionicon" src= {java} alt="Java" />
             </div>
             <div className={"skill " + (props.theme === "dark" ?  "dark" :  "light")}>
@@ -604,18 +604,18 @@ function Skills(props) {
         </div>
         <div id="flexskillTechcont">
             <div className={"skill " + (props.theme === "dark" ?  "dark" :  "light")}>
-                <Heading>HTML <br/>(5+ mths)</Heading>
+                <Heading>HTML <br/>(1+ year)</Heading>
                 <img className="ionicon" src= {html} alt="html" />
                  
             </div>
             <div className={"skill " + (props.theme === "dark" ?  "dark" :  "light")}>
                 <Heading>CSS<br/>
-                    (5+ mths)</Heading>
+                    (1+ year)</Heading>
                 <img className="ionicon" src={css} alt="css" />
             </div>
             <div className={"skill " + (props.theme === "dark" ?  "dark" :  "light")}>
                 <Heading>Git<br/>
-                    (5+ mths)</Heading>
+                    (1+ year)</Heading>
      
                 <img className="ionicon" src={git} alt="git" />
             </div>
