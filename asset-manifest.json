@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.bc80293b.css",
-    "main.js": "/static/js/main.1e04f3fa.js",
+    "main.js": "/static/js/main.e27e9a1d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.png": "/static/media/me.c4b95eda53b6ba265482.png",
-    "static/media/eventreminder3.png": "/static/media/eventreminder3.f5eb91fef0e31e4a6a65.png",
+    "static/media/bento3.png": "/static/media/bento3.81d4aab6e47c3f4a4991.png",
+    "static/media/bento.png": "/static/media/bento.a44c164a10fe87dc7302.png",
     "static/media/poke.png": "/static/media/poke.d7f97797095963518fe2.png",
     "static/media/poke4.png": "/static/media/poke4.f7cde91d2a9c655dbcaf.png",
     "static/media/poke2.png": "/static/media/poke2.f35bbfe4e5b13edfc2d2.png",
     "static/media/poke3.png": "/static/media/poke3.8a458f4084e5de3a2fb4.png",
-    "static/media/eventreminder.png": "/static/media/eventreminder.66f85b1945d009088c8d.png",
-    "static/media/eventreminder2.png": "/static/media/eventreminder2.b703702ca9ef48b09697.png",
     "static/media/compass2.png": "/static/media/compass2.1e22fc58156fe8bdec99.png",
+    "static/media/bento2.png": "/static/media/bento2.ef0d14e9220583b05d70.png",
     "static/media/compass3.png": "/static/media/compass3.11db7d84375966a3d1e4.png",
     "static/media/VarelaRound-Regular.ttf": "/static/media/VarelaRound-Regular.e67ccd4a92677fdf8719.ttf",
     "static/media/compass.png": "/static/media/compass.d33f35f8706aab68a24b.png",
@@ -28,11 +28,11 @@
     "static/media/menu.svg": "/static/media/menu.fe8bc671f6d200a953125da406866589.svg",
     "static/media/mail.svg": "/static/media/mail.4e4408d4d3524fbc731f3cf3e95c7ce0.svg",
     "main.bc80293b.css.map": "/static/css/main.bc80293b.css.map",
-    "main.1e04f3fa.js.map": "/static/js/main.1e04f3fa.js.map",
+    "main.e27e9a1d.js.map": "/static/js/main.e27e9a1d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc80293b.css",
-    "static/js/main.1e04f3fa.js"
+    "static/js/main.e27e9a1d.js"
   ]
 }
